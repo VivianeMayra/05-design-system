@@ -1,8 +1,7 @@
+import { ComponentProps } from "react"
 import { styled } from "./styles"
 
-export type ButtonProps = {
-  size: "small" | "big"
-}
+export type ButtonProps = ComponentProps<typeof Button>
 
 export const Button = styled("button", {
   fontFamily: "$default",
