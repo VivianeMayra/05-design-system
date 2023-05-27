@@ -8,6 +8,13 @@ export default {
     src: "https://github.com/VivianeMayra.png",
     alt: "Viviane Mayra",
   },
+  argTypes: {
+    src: {
+      control: {
+        type: "text",
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
