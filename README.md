@@ -1,9 +1,9 @@
 # Components
 
-- [ ] Button
-- [ ] Heading
-- [ ] Text
-- [ ] Textarea
-- [ ] Checkbox
-- [ ] Avatar
-- [ ] MultiStep
+- [x] Button
+- [x] Heading
+- [x] Text
+- [x] Textarea
+- [x] Checkbox
+- [x] Avatar
+- [x] MultiStep
