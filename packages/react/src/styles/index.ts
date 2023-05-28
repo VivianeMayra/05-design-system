@@ -7,6 +7,7 @@ import {
   space,
 } from "@ignite-ui/tokens/src"
 import { createStitches, defaultThemeMap } from "@stitches/react"
+import React from "react"
 
 export const {
   styled,

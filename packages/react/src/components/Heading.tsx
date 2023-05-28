@@ -1,4 +1,5 @@
 import { ComponentProps, ElementType } from "react"
+import React from "react"
 import { styled } from "../styles"
 
 export const Heading = styled("h2", {

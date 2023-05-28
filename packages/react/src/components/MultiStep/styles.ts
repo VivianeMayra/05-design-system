@@ -1,5 +1,6 @@
 import { styled } from "../../styles"
 import { Text } from "../Text"
+import React from "react"
 
 export const MultiStepContainer = styled("div", {})
 
