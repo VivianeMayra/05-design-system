@@ -1,16 +1,15 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { Button, ButtonProps } from "@ignite-ui/react/src"
+import { Button, ButtonProps } from "@ignite-ui/react"
 import { ArrowRight } from "phosphor-react"
-import React from "react"
 
 export default {
   title: "Form/Button",
   component: Button,
   args: {
-    children: "Send",
     variant: "primary",
     size: "md",
     disabled: false,
+    children: "Send",
   },
   argTypes: {
     variant: {

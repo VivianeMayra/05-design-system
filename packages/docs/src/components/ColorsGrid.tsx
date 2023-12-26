@@ -1,5 +1,4 @@
 import { colors } from "@ignite-ui/tokens"
-import React from "react"
 import { getContrast } from "polished"
 
 export function ColorsGrid() {

@@ -1,14 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react"
 import { Text, TextProps } from "@ignite-ui/react"
-import React from "react"
 
 export default {
   title: "Typography/Text",
   component: Text,
   args: {
     size: "md",
-    children:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.",
+    children: "Example Text",
   },
   argTypes: {
     size: {
